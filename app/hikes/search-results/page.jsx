@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaArrowAltCircleLeft } from 'react-icons/fa';
 import HikeCard from '@/components/HikeCard';
 import HikeSearchForm from '@/components/HikeSearchForm';
-import '@/assets/styles/SearchResultsPage.css'
+import '@/assets/styles/searchResultsPage.css'
 
 const SearchResultsPage = () => {
     const searchParams = useSearchParams();
