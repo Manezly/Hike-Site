@@ -1,0 +1,19 @@
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li:hover a {
+    color: var(--clr-pink);
+}

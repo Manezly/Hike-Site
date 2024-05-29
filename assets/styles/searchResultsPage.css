@@ -1,0 +1,9 @@
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.results > a {
+    width: fit-content;
+}

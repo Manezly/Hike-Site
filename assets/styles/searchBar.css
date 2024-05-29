@@ -1,0 +1,49 @@
+form {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    height: fit-content;
+    font-size: var(--size-lg);
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form select {
+    height: 100%;
+    font-size: var(--size-xl);
+    font-weight: 600;
+    min-height: 2.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.difficulty {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+    form {
+        flex-direction: row;
+    }
+}
+/* lg */
+@media (min-width: 1024px) {
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}
